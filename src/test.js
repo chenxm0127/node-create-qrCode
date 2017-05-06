@@ -16,7 +16,8 @@ var task1 = function(callback){
 var task2 = function(waterImg, callback){  
     //打水印背景图片
     let sourceImg = '../1.jpg';  
-    utils.addWater(sourceImg, waterImg, function(data){  
+    let destImg = "2.jpg";  
+    utils.addWater(sourceImg, waterImg, destImg, function(data){  
         callback(null, data);  
     })  
 };  
