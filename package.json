@@ -1,0 +1,12 @@
+{
+  "name": "node-create-qrcode",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "async": "^2.4.0",
+    "images": "^3.0.0",
+    "qr-image": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}
